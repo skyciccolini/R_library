@@ -18,3 +18,19 @@ ggplot(M, aes(x, y)) +
            parse = TRUE,
            x = 7.5, y = 10,
            size = 5)
+
+# adding math symbol in axis label
+labs(x = expression("Nymphal Questing Max Summer Temperature (" * ~degree * C * ")"))
+
+
+
+
+
+
+
+
+
+
+
+
+
