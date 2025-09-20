@@ -2,12 +2,18 @@
 
 manuscript_theme <- list(
   theme_classic(),
-  theme(axis.title = element_text(face = "bold", size = 12),
-        axis.text = element_text(face = "italic", size = 10),
-        text = element_text(family = "sans")),
-  set.seed(898760))
+  theme(axis.title = element_text(face = "bold"),
+        axis.text = element_text(face = "italic"),
+        text = element_text(family = "sans", size = 10))
+  )
 
-
+# custom theme for poster figs
+poster_theme <- list(
+  theme_classic(),
+  theme(axis.title = element_text(face = "bold"),
+        axis.text = element_text(face = "italic"),
+        text = element_text(family = "sans", size = 24))
+  )
 
 
 
