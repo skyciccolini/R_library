@@ -9,3 +9,31 @@ ggplot() +
                    name = "Time") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
         strip.background = element_rect(fill = "goldenrod")) ## this changes the facet label background color
+
+
+# remove the facet box and resize/bold the text labels
+theme(strip.background = element_blank(),
+      strip.text = element_text(face = "bold", size = rel(1.5)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
